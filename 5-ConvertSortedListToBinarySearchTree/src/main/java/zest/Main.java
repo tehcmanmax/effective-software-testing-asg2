@@ -1,6 +1,5 @@
 package zest;
 
-import java.util.*;
 
 public class Main {
     public static void printBFSTraversal(TreeNode root) {

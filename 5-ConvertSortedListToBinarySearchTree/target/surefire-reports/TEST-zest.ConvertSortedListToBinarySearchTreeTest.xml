@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="zest.ConvertSortedListToBinarySearchTreeTest" time="0.179" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/disabled/Development/UZH/Semester 2/Effective Software Testing/Software-Testing/assignment02/5-ConvertSortedListToBinarySearchTree/target/test-classes:/Users/disabled/Development/UZH/Semester 2/Effective Software Testing/Software-Testing/assignment02/5-ConvertSortedListToBinarySearchTree/target/classes:/Users/disabled/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/disabled/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/disabled/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/disabled/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/disabled/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/disabled/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:/Users/disabled/.m2/repository/net/jqwik/jqwik/1.8.4/jqwik-1.8.4.jar:/Users/disabled/.m2/repository/net/jqwik/jqwik-api/1.8.4/jqwik-api-1.8.4.jar:/Users/disabled/.m2/repository/net/jqwik/jqwik-web/1.8.4/jqwik-web-1.8.4.jar:/Users/disabled/.m2/repository/net/jqwik/jqwik-time/1.8.4/jqwik-time-1.8.4.jar:/Users/disabled/.m2/repository/net/jqwik/jqwik-engine/1.8.4/jqwik-engine-1.8.4.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Europe/Zurich"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Users/disabled/.sdkman/candidates/java/21.0.3-tem/lib"/>
+    <property name="sun.java.command" value="/Users/disabled/Development/UZH/Semester 2/Effective Software Testing/Software-Testing/assignment02/5-ConvertSortedListToBinarySearchTree/target/surefire/surefirebooter-20260427173012878_3.jar /Users/disabled/Development/UZH/Semester 2/Effective Software Testing/Software-Testing/assignment02/5-ConvertSortedListToBinarySearchTree/target/surefire 2026-04-27T17-30-12_828-jvmRun1 surefire-20260427173012878_1tmp surefire_0-20260427173012878_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/disabled/Development/UZH/Semester 2/Effective Software Testing/Software-Testing/assignment02/5-ConvertSortedListToBinarySearchTree/target/test-classes:/Users/disabled/Development/UZH/Semester 2/Effective Software Testing/Software-Testing/assignment02/5-ConvertSortedListToBinarySearchTree/target/classes:/Users/disabled/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/disabled/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/disabled/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/disabled/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/disabled/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/disabled/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:/Users/disabled/.m2/repository/net/jqwik/jqwik/1.8.4/jqwik-1.8.4.jar:/Users/disabled/.m2/repository/net/jqwik/jqwik-api/1.8.4/jqwik-api-1.8.4.jar:/Users/disabled/.m2/repository/net/jqwik/jqwik-web/1.8.4/jqwik-web-1.8.4.jar:/Users/disabled/.m2/repository/net/jqwik/jqwik-time/1.8.4/jqwik-time-1.8.4.jar:/Users/disabled/.m2/repository/net/jqwik/jqwik-engine/1.8.4/jqwik-engine-1.8.4.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/disabled"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="/Users/disabled/.sdkman/candidates/java/21.0.3-tem"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/disabled/Development/UZH/Semester 2/Effective Software Testing/Software-Testing/assignment02/5-ConvertSortedListToBinarySearchTree"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/disabled/Development/UZH/Semester 2/Effective Software Testing/Software-Testing/assignment02/5-ConvertSortedListToBinarySearchTree/target/surefire/surefirebooter-20260427173012878_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21.0.3+9-LTS"/>
+    <property name="user.name" value="disabled"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.3.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.3+9"/>
+    <property name="localRepository" value="/Users/disabled/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/ys/g56_tyjx0bbdw309yhrhtr9r0000gn/T/"/>
+    <property name="java.version" value="21.0.3"/>
+    <property name="user.dir" value="/Users/disabled/Development/UZH/Semester 2/Effective Software Testing/Software-Testing/assignment02/5-ConvertSortedListToBinarySearchTree"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/disabled/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.3+9-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="example3SingleNodeInput" classname="zest.ConvertSortedListToBinarySearchTreeTest" time="0.02"/>
+  <testcase name="fuzzesManyRandomValidSortedLists" classname="zest.ConvertSortedListToBinarySearchTreeTest" time="0.011"/>
+  <testcase name="preservesDuplicateValues" classname="zest.ConvertSortedListToBinarySearchTreeTest" time="0.0"/>
+  <testcase name="rejectsValuesBelowAllowedRange" classname="zest.ConvertSortedListToBinarySearchTreeTest" time="0.001"/>
+  <testcase name="fuzzesManyRandomOutOfRangeValues" classname="zest.ConvertSortedListToBinarySearchTreeTest" time="0.003"/>
+  <testcase name="example2EmptyInputReturnsNull" classname="zest.ConvertSortedListToBinarySearchTreeTest" time="0.0"/>
+  <testcase name="rejectsUnsortedInput" classname="zest.ConvertSortedListToBinarySearchTreeTest" time="0.0"/>
+  <testcase name="fuzzesManyRandomInvalidLists" classname="zest.ConvertSortedListToBinarySearchTreeTest" time="0.002"/>
+  <testcase name="example1FromProblemStatement" classname="zest.ConvertSortedListToBinarySearchTreeTest" time="0.001"/>
+  <testcase name="acceptsBoundaryValuesAndMaximumLength" classname="zest.ConvertSortedListToBinarySearchTreeTest" time="0.004"/>
+  <testcase name="rejectsValuesAboveAllowedRange" classname="zest.ConvertSortedListToBinarySearchTreeTest" time="0.001"/>
+  <testcase name="rejectsTooManyNodes" classname="zest.ConvertSortedListToBinarySearchTreeTest" time="0.002"/>
+  <testcase name="handlesEvenNumberOfNodes" classname="zest.ConvertSortedListToBinarySearchTreeTest" time="0.001"/>
+  <testcase name="Out-of-range values violate the input contract" classname="zest.ConvertSortedListToBinarySearchTreeTest" time="0.123">
+    <system-out><![CDATA[timestamp = 2026-04-27T17:30:13.750622, ConvertSortedListToBinarySearchTreeTest:Out-of-range values violate the input contract = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 8          | # of all combined edge cases
+edge-cases#tried = 8          | # of edge cases tried in current run
+seed = 2053241878277625274    | random seed to reproduce generated values
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="Unsorted lists violate the input contract" classname="zest.ConvertSortedListToBinarySearchTreeTest" time="0.013">
+    <system-out><![CDATA[timestamp = 2026-04-27T17:30:13.766140, ConvertSortedListToBinarySearchTreeTest:Unsorted lists violate the input contract = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 8          | # of all combined edge cases
+edge-cases#tried = 7          | # of edge cases tried in current run
+seed = -8108436829882808263   | random seed to reproduce generated values
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="Valid sorted inputs preserve values and produce balanced trees" classname="zest.ConvertSortedListToBinarySearchTreeTest" time="0.035">
+    <system-out><![CDATA[timestamp = 2026-04-27T17:30:13.801606, ConvertSortedListToBinarySearchTreeTest:Valid sorted inputs preserve values and produce balanced trees = 
+                              |-----------------------jqwik-----------------------
+tries = 250                   | # of calls to property
+checks = 250                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 10         | # of all combined edge cases
+edge-cases#tried = 10         | # of edge cases tried in current run
+seed = -3570312885608370778   | random seed to reproduce generated values
+
+
+]]></system-out>
+  </testcase>
+</testsuite>
