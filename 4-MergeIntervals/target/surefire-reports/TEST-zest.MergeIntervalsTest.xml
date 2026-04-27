@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="zest.MergeIntervalsTest" time="0.241" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/disabled/Development/UZH/Semester 2/Effective Software Testing/Software-Testing/assignment02/4-MergeIntervals/target/test-classes:/Users/disabled/Development/UZH/Semester 2/Effective Software Testing/Software-Testing/assignment02/4-MergeIntervals/target/classes:/Users/disabled/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/disabled/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/disabled/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/disabled/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/disabled/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/disabled/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:/Users/disabled/.m2/repository/net/jqwik/jqwik/1.8.4/jqwik-1.8.4.jar:/Users/disabled/.m2/repository/net/jqwik/jqwik-api/1.8.4/jqwik-api-1.8.4.jar:/Users/disabled/.m2/repository/net/jqwik/jqwik-web/1.8.4/jqwik-web-1.8.4.jar:/Users/disabled/.m2/repository/net/jqwik/jqwik-time/1.8.4/jqwik-time-1.8.4.jar:/Users/disabled/.m2/repository/net/jqwik/jqwik-engine/1.8.4/jqwik-engine-1.8.4.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Europe/Zurich"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Users/disabled/.sdkman/candidates/java/21.0.3-tem/lib"/>
+    <property name="sun.java.command" value="/Users/disabled/Development/UZH/Semester 2/Effective Software Testing/Software-Testing/assignment02/4-MergeIntervals/target/surefire/surefirebooter-20260427165629697_3.jar /Users/disabled/Development/UZH/Semester 2/Effective Software Testing/Software-Testing/assignment02/4-MergeIntervals/target/surefire 2026-04-27T16-56-29_639-jvmRun1 surefire-20260427165629697_1tmp surefire_0-20260427165629697_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/disabled/Development/UZH/Semester 2/Effective Software Testing/Software-Testing/assignment02/4-MergeIntervals/target/test-classes:/Users/disabled/Development/UZH/Semester 2/Effective Software Testing/Software-Testing/assignment02/4-MergeIntervals/target/classes:/Users/disabled/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/disabled/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/disabled/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/disabled/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/disabled/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/disabled/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:/Users/disabled/.m2/repository/net/jqwik/jqwik/1.8.4/jqwik-1.8.4.jar:/Users/disabled/.m2/repository/net/jqwik/jqwik-api/1.8.4/jqwik-api-1.8.4.jar:/Users/disabled/.m2/repository/net/jqwik/jqwik-web/1.8.4/jqwik-web-1.8.4.jar:/Users/disabled/.m2/repository/net/jqwik/jqwik-time/1.8.4/jqwik-time-1.8.4.jar:/Users/disabled/.m2/repository/net/jqwik/jqwik-engine/1.8.4/jqwik-engine-1.8.4.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/disabled"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="/Users/disabled/.sdkman/candidates/java/21.0.3-tem"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/disabled/Development/UZH/Semester 2/Effective Software Testing/Software-Testing/assignment02/4-MergeIntervals"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/disabled/Development/UZH/Semester 2/Effective Software Testing/Software-Testing/assignment02/4-MergeIntervals/target/surefire/surefirebooter-20260427165629697_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21.0.3+9-LTS"/>
+    <property name="user.name" value="disabled"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.3.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.3+9"/>
+    <property name="localRepository" value="/Users/disabled/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/ys/g56_tyjx0bbdw309yhrhtr9r0000gn/T/"/>
+    <property name="java.version" value="21.0.3"/>
+    <property name="user.dir" value="/Users/disabled/Development/UZH/Semester 2/Effective Software Testing/Software-Testing/assignment02/4-MergeIntervals"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/disabled/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.3+9-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="intervalLengthNotTwoViolatesPrecondition" classname="zest.MergeIntervalsTest" time="0.016"/>
+  <testcase name="validInputAlwaysUsesLengthTwoIntervals" classname="zest.MergeIntervalsTest" time="0.001"/>
+  <testcase name="nullEntryViolatesPrecondition" classname="zest.MergeIntervalsTest" time="0.001"/>
+  <testcase name="emptyInputReturnsEmptyOutput" classname="zest.MergeIntervalsTest" time="0.005"/>
+  <testcase name="handlesUnsortedInput" classname="zest.MergeIntervalsTest" time="0.0"/>
+  <testcase name="mergesChainsOfOverlappingIntervals" classname="zest.MergeIntervalsTest" time="0.0"/>
+  <testcase name="example1FromProblemStatement" classname="zest.MergeIntervalsTest" time="0.001"/>
+  <testcase name="nullInputViolatesPrecondition" classname="zest.MergeIntervalsTest" time="0.001"/>
+  <testcase name="example2FromProblemStatement" classname="zest.MergeIntervalsTest" time="0.0"/>
+  <testcase name="handlesSingleInterval" classname="zest.MergeIntervalsTest" time="0.001"/>
+  <testcase name="mergesNestedIntervals" classname="zest.MergeIntervalsTest" time="0.0"/>
+  <testcase name="keepsDisjointIntervalsSeparated" classname="zest.MergeIntervalsTest" time="0.001"/>
+  <testcase name="P4 Handles empty/non-empty generated inputs consistently" classname="zest.MergeIntervalsTest" time="0.167">
+    <system-out><![CDATA[timestamp = 2026-04-27T16:56:30.581507, MergeIntervalsTest:P4 Handles empty/non-empty generated inputs consistently = 
+                              |-----------------------jqwik-----------------------
+tries = 250                   | # of calls to property
+checks = 250                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 82         | # of all combined edge cases
+edge-cases#tried = 46         | # of edge cases tried in current run
+seed = 4375461599199845697    | random seed to reproduce generated values
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="P3 Permutation invariance" classname="zest.MergeIntervalsTest" time="0.023">
+    <system-out><![CDATA[timestamp = 2026-04-27T16:56:30.607603, MergeIntervalsTest:P3 Permutation invariance = 
+                              |-----------------------jqwik-----------------------
+tries = 250                   | # of calls to property
+checks = 250                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 81         | # of all combined edge cases
+edge-cases#tried = 44         | # of edge cases tried in current run
+seed = -8396656249286456361   | random seed to reproduce generated values
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="P1 Contract preservation" classname="zest.MergeIntervalsTest" time="0.021">
+    <system-out><![CDATA[timestamp = 2026-04-27T16:56:30.628881, MergeIntervalsTest:P1 Contract preservation = 
+                              |-----------------------jqwik-----------------------
+tries = 250                   | # of calls to property
+checks = 250                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 81         | # of all combined edge cases
+edge-cases#tried = 38         | # of edge cases tried in current run
+seed = 2328987585093815196    | random seed to reproduce generated values
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="P2 Idempotence" classname="zest.MergeIntervalsTest" time="0.016">
+    <system-out><![CDATA[timestamp = 2026-04-27T16:56:30.645487, MergeIntervalsTest:P2 Idempotence = 
+                              |-----------------------jqwik-----------------------
+tries = 250                   | # of calls to property
+checks = 250                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 81         | # of all combined edge cases
+edge-cases#tried = 38         | # of edge cases tried in current run
+seed = -3805389065651883535   | random seed to reproduce generated values
+
+
+]]></system-out>
+  </testcase>
+</testsuite>
